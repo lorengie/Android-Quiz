@@ -3,9 +3,7 @@ import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
-import androidx.navigation.compose.rememberNavController
-import com.example.tarea.dropDown.dropDown
-import com.example.tarea.screen.navigationExample
+import com.example.tarea.calculadora_resistencias.CalculadoraResistencia
 
 
 class MainActivity : ComponentActivity() {
@@ -13,7 +11,7 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContent {
-            navigationExample()
+            CalculadoraResistencia()
         }
     }
 }
